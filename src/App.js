@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import BankDetails from './components/bankDetails/BankDetails';
+import BookingDesk from './components/bookingDesk/BookingDesk';
+import GoldRate from './components/goldRates/GoldRate';
+import Footer from './components/footer/Footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Router>
+      <Footer/>
+      <Switch>
+        <Route exact path='/'> <GoldRate/></Route>
+        <Route path='/bank-details'> <BankDetails/></Route>
+        <Route path='/booking-desk'> <BookingDesk/></Route>
+      </Switch>
+
+   </Router>
+
+   </>
   );
 }
 
