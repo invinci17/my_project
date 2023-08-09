@@ -1,0 +1,33 @@
+.booking-desk-main{
+    display:block;
+}
+
+.booking-container{
+    background-color: rgb(134, 137, 137);
+    margin: 10px 10px 10px 10px;
+    
+}
+
+.booking-details-row{
+    display: block;
+}
+
+.booking-image{
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+}
+    
+
+.booking-details{
+        background-color: white;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 11px;
+        border-radius: 5px;
+        position: fixed;
+        margin: 10px 10px 10px 10px;
+
+        width: 70%;
+        left: auto;
+        right: 10px;
+}

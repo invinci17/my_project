@@ -1,0 +1,48 @@
+.bank-main{
+    display: block;
+    margin: 40px 20px 0px 20px;
+}
+
+.bank-details-image{
+    margin: 40px 100px 10px 100px;
+}
+img.bank-details{
+    height:100px;
+    width:100%;
+}
+
+h2{
+    text-align: center;
+    display: block;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+table.bank-details {
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: #33383c;
+}
+
+tr.bank-details{
+    text-align: center;
+    background: #b2b1b1;
+    /* border-bottom: 1px solid black;  */
+}
+ 
+th.bank-details {
+    width : 300px;
+    background-color: #d33535;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #1ea33d;
+}
+  
+td.bank-details {
+    padding: 12px;
+    font-size: 14px;
+    color: #000000;
+    /* border-bottom: 1px solid black; */
+}
