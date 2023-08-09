@@ -8,7 +8,7 @@ const Banner = () => {
     <div className='headerContainer'>
     <div  className={"player-wrapper flex-basis"}>
                         <div className="react-player">
-                            <img src={imageUrl} alt="asdasdasdasd"/>
+                            <img className='image-container' src={imageUrl} alt="asdasdasdasd"/>
                         </div>
                     </div>
                     </div>

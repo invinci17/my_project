@@ -6,15 +6,20 @@ const GoldRate = () => {
 
   const data  = [
     {
-      name: 'John Doe',
-      age: 30,
-      city: 'New York',
+      product: 'Gold 24CT 1 GM',
+      buy: '-',
+      sell: '6120',
     },
     {
-      name: 'Jane Doe',
-      age: 25,
-      city: 'Los Angeles',
+      product: 'Gold 24CT 5 GM',
+      buy: '-',
+      sell: '30600',
     },
+    {
+      product: 'Gold 24CT 10 GM',
+      buy: '-',
+      sell: '61200',
+    }
   ];
 
 
@@ -26,17 +31,17 @@ const GoldRate = () => {
     <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Age</th>
-          <th>City</th>
+          <th>PRODUCT</th>
+          <th>BUY</th>
+          <th>SELL</th>
         </tr>
       </thead>
       <tbody>
         {data.map((row) => (
           <tr>
-            <td>{row.name}</td>
-            <td>{row.age}</td>
-            <td>{row.city}</td>
+            <td>{row.product}</td>
+            <td>{row.buy}</td>
+            <td>{row.sell}</td>
           </tr>
         ))}
       </tbody>

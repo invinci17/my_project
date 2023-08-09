@@ -10,21 +10,22 @@ table {
     width: 100%;
     height: 200px;
     border: 1px solid rgb(0, 0, 0);
+    box-shadow: #33383c;
 }
 
 tr{
     text-align: center;
-    background: #fafafb;
+    background: #ffffff;
     /* border-bottom: 1px solid black; */
 }
  
 th {
     width : 300px;
-    background-color: #eeeeee;
+    background-color: #989797;
     padding: 12px;
     text-align: center;
     font-size: 14px;
-    color: #2c3e50;
+    color: #90c1f2;
 }
   
 td {
