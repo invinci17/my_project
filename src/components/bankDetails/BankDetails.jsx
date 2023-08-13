@@ -30,7 +30,7 @@ const BankDetails = () => {
       <div className='bank-main'>
         <h2> BANK DETAILS </h2>
         <div className='bank-details-image' >
-        <img className='bank-details' src='./favicon.ico' alt='No Image'/></div>
+        <img className='bank-details' src='./favicon.ico' alt='NoImage'/></div>
         <table className='bank-details'>
       <tbody>
         {data.map((row)=>(

@@ -2,6 +2,7 @@ import React from "react";
 import './GoldRate.css'
 import Banner from "../banner/Banner";
 
+
 const GoldRate = () => {
 
   const data  = [
